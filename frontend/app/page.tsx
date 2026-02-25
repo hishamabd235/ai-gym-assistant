@@ -63,7 +63,7 @@ export default function FitNex() {
   const streamRef = React.useRef(null);
   const intervalRef = React.useRef(null);
   const lastRepStateRef = React.useRef('up');
-  const timerIntervalRef = React.useRef<NodeJS.Timeout | null>(null);
+  const timerIntervalRef = React.useRef<ReturnType<typeof setInterval> | null>(null);
 
   const API = 'https://ai-gym-assistant-38de.onrender.com';
 
