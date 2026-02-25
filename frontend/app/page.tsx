@@ -57,12 +57,14 @@ export default function FitNex() {
   const [liveScore, setLiveScore] = useState(100);
   const [landmarks, setLandmarks] = useState([]);
   const [showSkeleton, setShowSkeleton] = useState(true);
-  const videoRef = React.useRef(null);
-  const canvasRef = React.useRef(null);
-  const overlayCanvasRef = React.useRef(null);
-  const streamRef = React.useRef(null);
-  const intervalRef = React.useRef(null);
-  const lastRepStateRef = React.useRef('up');
+  const videoRef = React.useRef<HTMLVideoElement | null>(null);
+  const canvasRef = React.useRef<HTMLCanvasElement | null>(null);
+  const overlayCanvasRef = React.useRef<HTMLCanvasElement | null>(null);
+
+  const streamRef = React.useRef<MediaStream | null>(null);
+  const intervalRef = React.useRef<ReturnType<typeof setInterval> | null>(null);
+  const lastRepStateRef = React.useRef<string>('up');
+
   const timerIntervalRef = React.useRef<ReturnType<typeof setInterval> | null>(null);
 
   const API = 'https://ai-gym-assistant-38de.onrender.com';
