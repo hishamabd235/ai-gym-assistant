@@ -57,17 +57,15 @@ export default function FitNex() {
   const [liveScore, setLiveScore] = useState(100);
   const [landmarks, setLandmarks] = useState([]);
   const [showSkeleton, setShowSkeleton] = useState(true);
-  const videoRef = React.useRef<HTMLVideoElement | null>(null);
-  const canvasRef = React.useRef<HTMLCanvasElement | null>(null);
-  const overlayCanvasRef = React.useRef<HTMLCanvasElement | null>(null);
+  const videoRef = React.useRef(null);
+  const canvasRef = React.useRef(null);
+  const overlayCanvasRef = React.useRef(null);
+  const streamRef = React.useRef(null);
+  const intervalRef = React.useRef(null);
+  const lastRepStateRef = React.useRef('up');
+  const timerIntervalRef = React.useRef(null);
 
-  const streamRef = React.useRef<MediaStream | null>(null);
-  const intervalRef = React.useRef<ReturnType<typeof setInterval> | null>(null);
-  const lastRepStateRef = React.useRef<string>('up');
-
-  const timerIntervalRef = React.useRef<ReturnType<typeof setInterval> | null>(null);
-
-  const API = 'https://ai-gym-assistant-38de.onrender.com';
+  const API = 'http://localhost:8000';
 
   // Persist dark mode
   useEffect(() => {
@@ -130,7 +128,7 @@ export default function FitNex() {
 
   useEffect(() => {
     if (!showSkeleton && overlayCanvasRef.current) {
-      const overlayCanvasRef = React.useRef<HTMLCanvasElement | null>(null);
+      const canvas = overlayCanvasRef.current;
       const ctx = canvas.getContext('2d');
       ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
