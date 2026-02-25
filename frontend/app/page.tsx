@@ -130,7 +130,7 @@ export default function FitNex() {
 
   useEffect(() => {
     if (!showSkeleton && overlayCanvasRef.current) {
-      const canvas = overlayCanvasRef.current;
+      const overlayCanvasRef = React.useRef<HTMLCanvasElement | null>(null);
       const ctx = canvas.getContext('2d');
       ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
