@@ -65,7 +65,7 @@ export default function FitNex() {
   const lastRepStateRef = React.useRef('up');
   const timerIntervalRef = React.useRef(null);
 
-  const API = 'http://localhost:8000';
+  const API = 'https://ai-gym-assistant-38de.onrender.com';
 
   // Persist dark mode
   useEffect(() => {
