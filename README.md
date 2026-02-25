@@ -1,3 +1,7 @@
+## 🎬 Demo
+
+Live AI workout detection preview coming soon.
+
 \# 💪 FitNEX AI — AI Fitness Assistant
 
 
