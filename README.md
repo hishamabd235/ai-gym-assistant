@@ -79,100 +79,112 @@ Built with a modern full-stack architecture combining AI pose detection with a r
 
 ## 📁 Project Structure
 
+```text
 ai-gym-assistant/
+|
+|-- backend/      (FastAPI AI & API server)
+|-- frontend/     (Next.js web application)
+`-- README.md
+```
+---
 
-├── backend/ # FastAPI AI & API server
-├── frontend/ # Next.js web application
-└── README.md
+## ⚡ Quick Start
 
-2️⃣ Backend Setup
+### 2️⃣ Backend Setup
+
+```bash
 cd backend
 pip install -r requirements.txt
 python app.py
 
 Backend runs at:
 
+```
 http://localhost:8000
+```
 
-3️⃣ Frontend Setup
+---
+
+### 3️⃣ Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend runs at:
 
+```
 http://localhost:3000
+```
 
-🎯 Supported Exercises
+---
 
-Squats
+## 🎯 Supported Exercises
 
-Push-ups
+- Squats
+- Push-ups
+- Lunges
+- Planks
+- Bicep Curls
+- Shoulder Press
+- Deadlifts
 
-Lunges
+---
 
-Planks
+## 📡 Core API Features
 
-Bicep Curls
+- Workout analysis
+- Progress tracking
+- AI workout generation
+- Nutrition recommendations
+- Coaching insights
 
-Shoulder Press
+---
 
-Deadlifts
-
-📡 Core API Features
-
-Workout analysis
-
-Progress tracking
-
-AI workout generation
-
-Nutrition recommendations
-
-Coaching insights
-
-🧪 Best Usage Setup
+## 🧪 Best Usage Setup
 
 For accurate pose detection:
 
-Stand 6–8 ft from camera
+- Stand 6–8 ft from camera
+- Keep full body visible
+- Use good lighting
+- Perform controlled movements
 
-Keep full body visible
+---
 
-Use good lighting
+## 📈 Future Improvements
 
-Perform controlled movements
+- Mobile app version
+- User authentication
+- Cloud workout storage
+- Social fitness challenges
+- AI form correction scoring
 
-📈 Future Improvements
+---
 
-Mobile app version
-
-User authentication
-
-Cloud workout storage
-
-Social fitness challenges
-
-AI form correction scoring
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repo
+1. Fork the repo
+2. Create a feature branch
+3. Commit changes
+4. Open a Pull Request
 
-Create a feature branch
+---
 
-Commit changes
-
-Open a Pull Request
-
-📄 License
+## 📄 License
 
 MIT License
 
-⭐ Support
+---
+
+## ⭐ Support
 
 If you like this project, consider giving it a ⭐ on GitHub!
+
+---
 
 Built with ❤️ for smarter fitness training.
