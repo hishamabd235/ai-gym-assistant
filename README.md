@@ -96,14 +96,12 @@ ai-gym-assistant/
 cd backend
 pip install -r requirements.txt
 python app.py
-
+```
 Backend runs at:
 
 ```
 http://localhost:8000
 ```
-
----
 
 ### 3️⃣ Frontend Setup
 
