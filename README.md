@@ -2,7 +2,9 @@
 
 ## 🎬 Demo
 
-Live AI workout detection preview coming soon.
+## 🚀 Demo
+
+<video src="assets/demo.mp4" controls width="700"></video>
 
 > A modern AI-powered fitness platform that provides real-time workout analysis, personalized training plans, and intelligent fitness tracking.
 
