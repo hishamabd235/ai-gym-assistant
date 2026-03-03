@@ -4,7 +4,7 @@
 
 ## 🚀 Demo
 
-<video src="assets/demo.mp4" controls width="700"></video>
+https://github.com/hishamabd235/ai-gym-assistant/assets/demo.mp4
 
 > A modern AI-powered fitness platform that provides real-time workout analysis, personalized training plans, and intelligent fitness tracking.
 
