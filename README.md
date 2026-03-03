@@ -1,4 +1,6 @@
 # 💪 FitNEX AI — AI Fitness Assistant
+> A modern AI-powered fitness platform that provides real-time workout analysis, personalized training plans, and intelligent fitness tracking.
+
 
 ## 🎬 Demo
 
@@ -6,8 +8,6 @@ Real-time push-up tracking with pose estimation.
 
 Watch the demo here:
 https://www.linkedin.com/posts/hisham-shariq-abdullah_machinelearning-artificialintelligence-computervision-activity-7432860195783041024-W6z-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFauVNcByIba9hAA5ayXM8s1zJ_V6qfAwec
-
-> A modern AI-powered fitness platform that provides real-time workout analysis, personalized training plans, and intelligent fitness tracking.
 
 ---
 
